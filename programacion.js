@@ -5,10 +5,10 @@
     var g_Marte = 3.7;
 
     //elementos de html
-    var masa_Tierra = document.getElementById("peso");
-    var button = document.getElementById("bottom");
+   // var masa_Tierra = document.getElementById("peso");
+    //var button = document.getElementById("bottom");
 
-    button.addEventListener("click", peso_marte);
+    //button.addEventListener("click", peso_marte);
 
     function peso_marte(){
         var peso_Tierra = masa_Tierra.value;
@@ -18,7 +18,6 @@
             
            //Forma de enviar un resultado a una caja de texto 
            document.getElementById("impresion").value = peso_final;
-
     }
 
    

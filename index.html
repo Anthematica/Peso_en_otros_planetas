@@ -9,21 +9,48 @@
 </head>
 <body>
 	<main>
-		<h1>Podras saber tu peso en los diferentes planetas del sistema solar</h1>
+		<h1>¿Alguna vez te has preguntado cual es tu peso en otros planetas?</h1>
 
-		<form action="">
-			<label for="peso">
-				<span>¿Cuál es tu peso en la Tierra?</span>
-				<input type="number" id="peso" required >
+		<form action="" class=main-form>
 
-			</label>
-			<label for="bottom">
-				<input type="button" value="Calcular" id="bottom">
-			</label>
-			<br>
-			<label for="impresion">
-					<input type="text" id="impresion" readonly>
-			</label>
+			<section class="input">
+				<spa>Ingrese su peso en la Tierra</spa>
+				<input type="number" id="input" required>
+				<input type="button" id="calcular" value="Calcular">
+			</section>
+
+			<section class="planets">
+					<h4>Mercurio</h4>
+					<input type="text" id="outputmer" readonly >
+			</section>
+			<section class="planets">
+				<h4>Venus</h4>
+				<input type="text" id="outputven" readonly>
+			</section>
+			<section class="planets">
+				<h4>Marte</h4>
+				<input type="text" id="outputmar" readonly>
+			</section>
+			<section class="planets">
+				<h4>Jupiter</h4>
+				<input type="text" id="outputjup" readonly>
+			</section> <br>
+			<section class="planets">
+				<h4>Saturno</h4>
+				<input type="text" id="outputsat" readonly>
+			</section>
+			<section class="planets">
+				<h4>Urano</h4>
+				<input type="text" id="outputura" readonly>
+			</section>
+			<section class="planets">
+				<h4>Neptuno</h4>
+				<input type="text" id="outputnep" readonly>
+			</section>
+			<section class="planets">
+				<h4>Pluton</h4>
+				<input type="text" id="outputplu" readonly>
+			</section>
 		</form>
 	</main>
 
